@@ -9,7 +9,7 @@ export const updatePrices = async (data) => {
 
     return res.data;
   } catch (error) {
-    console.error("Price update error:", error);
+    // console.error("Price update error:", error);
     throw error;
   }
 };
