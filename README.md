@@ -46,11 +46,9 @@ src/
 ├── api/
 │   └── api.js
 ├── components/
-│   ├── Navbar.jsx
 │   ├── SummaryCards.jsx
 │   ├── PortfolioTable.jsx
 │   ├── SectorGroup.jsx
-│   ├── SectorChart.jsx
 │   └── ExcelUpload.jsx
 ├── pages/
 │   └── Dashboard.jsx
