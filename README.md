@@ -2,6 +2,10 @@
 
 A simple portfolio dashboard where users can upload their stock portfolio using an Excel file and view their investment performance.
 
+## Live Demo
+
+- Live Link - https://portfolio-dashboard-six-lake.vercel.app
+
 ## Features
 
 - Upload portfolio data from Excel files
@@ -48,7 +52,7 @@ src/
 ├── components/
 │   ├── SummaryCards.jsx
 │   ├── PortfolioTable.jsx
-│   ├── SectorGroup.jsx
+│   ├── SectionChart.jsx
 │   └── ExcelUpload.jsx
 ├── pages/
 │   └── Dashboard.jsx
@@ -96,10 +100,6 @@ npm run dev
 cd backend
 npm install
 npm run dev
-
-## The backend runs on:
-
-http://localhost:5000
 
 ### Data Sources
 
