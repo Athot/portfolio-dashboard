@@ -9,7 +9,6 @@ const {
 const router = express.Router();
 
 router.get("/", getPortfolio);
-
 router.get("/price", getStockPrice);
 router.post("/update-prices", updatePortfolioPrices);
 router.post("/fundamentals", getStockFundamentals);
